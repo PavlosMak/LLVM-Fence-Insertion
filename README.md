@@ -3,7 +3,10 @@
 A modification of the LLVM compiler infrastructure for automatically inserting fences in weak memory model concurrent programs.
 
 ## Building and Running Instructions
-First clone this repository, you can set the `--depth` to `1` to get only the most recent version. 
+First clone this repository. Optionally you can set the `--depth` to `1` to get only the most recent version. 
+```bash
+$ git clone git@github.com:PavlosMak/LLVM-Fence-Insertion.git
+```
 
 Then you need to compile the project. The first thing to do is make a `build` directory inside the repository. 
 Then go inside `build` and run 
